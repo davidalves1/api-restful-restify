@@ -1,6 +1,4 @@
-const restify = require('restify');
-
-const server = restify.createServer();
+const server = require('./server');
 
 const port = 3000;
 
